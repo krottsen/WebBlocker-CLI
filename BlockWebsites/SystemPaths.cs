@@ -32,10 +32,5 @@ namespace BlockWebsites
         /// block.sites.data Local Path. 
         /// </summary>
         public static string DataFilePath => Path.Combine(_hostDirectory, _filename);
-
-        /// <summary>
-        /// IP address number.
-        /// </summary>
-        public static string GetLocalHostNumber => IPAddress.Loopback.ToString();
     }
 }
